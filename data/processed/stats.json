@@ -1,0 +1,32 @@
+{
+  "n_docs": 5,
+  "n_train_docs": 3,
+  "n_test_docs": 2,
+  "test_docs": [
+    "22-1165_10n2",
+    "USCOURTS-ilnd-1_04-cv-00397-5"
+  ],
+  "n_chunks": 609,
+  "n_train_chunks": 486,
+  "n_test_chunks": 123,
+  "words_per_chunk": {
+    "min": 20,
+    "mean": 86.0,
+    "max": 187
+  },
+  "chunks_per_doc": {
+    "20240809133545974_23-980_petbrief": 199,
+    "22-1165_10n2": 48,
+    "23-980bsacus_facebookvamalgamatedbank": 151,
+    "USCOURTS-ilnd-1_04-cv-00397-5": 75,
+    "comp26286": 136
+  },
+  "skipped": [],
+  "config": {
+    "chunk_words": 100,
+    "overlap_sentences": 1,
+    "min_chunk_words": 20,
+    "test_fraction": 0.4,
+    "seed": 42
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "k": 3,
+  "dim": 64,
+  "baseline": {
+    "n_clusters": 3,
+    "silhouette_cosine": 0.20131459832191467,
+    "davies_bouldin": 2.6103785880578934,
+    "calinski_harabasz": 61.34283396967592,
+    "ari_vs_reference": 0.21566121722293374,
+    "nmi_vs_reference": 0.3150334152609599,
+    "silhouette_test_docs_only": 0.2942637503147125,
+    "ari_test_subset": 0.5415195761394251,
+    "nmi_test_subset": 0.4375560493352798,
+    "ari_test_recluster": 0.5663545168113322,
+    "nmi_test_recluster": 0.45887012210394457
+  },
+  "custom": {
+    "n_clusters": 3,
+    "silhouette_cosine": 0.18476378917694092,
+    "davies_bouldin": 2.685107020094701,
+    "calinski_harabasz": 71.06057035130635,
+    "ari_vs_reference": 0.39370881807361297,
+    "nmi_vs_reference": 0.5299054951616804,
+    "silhouette_test_docs_only": 0.09882348030805588,
+    "ari_test_subset": 0.12816015544204928,
+    "nmi_test_subset": 0.18795131263542827,
+    "ari_test_recluster": 0.6715573681371745,
+    "nmi_test_recluster": 0.5842257838499068
+  }
+}
